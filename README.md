@@ -75,21 +75,21 @@ All models are evaluated using **ROC-AUC score**, which measures the ability to 
 ## 📈 Sample Output
 
 ```
-🔬 Training on assay: NR-AR
-  ➤ NN AUC         = 0.789
-  ➤ XGBoost AUC    = 0.802
-  ➤ LightGBM AUC   = 0.810
-  ➤ Weighted AUC   = 0.823
-  ➤ Stacking AUC   = 0.832
+🔬 Training on assay: NR-AhR
+  ➤ NN AUC         = 0.898
+  ➤ XGBoost AUC    = 0.905
+  ➤ LightGBM AUC   = 0.904
+  ➤ Weighted AUC   = 0.911
+  ➤ Stacking AUC   = 0.909
 ```
 
 Final Average AUCs:
 
-* Neural Network : 0.775
-* XGBoost        : 0.788
-* LightGBM       : 0.794
-* Weighted Ens.  : 0.805
-* Stacking Ens.  : 0.814
+  ➤ Neural Network : 0.802
+  ➤ XGBoost        : 0.816
+  ➤ LightGBM       : 0.820
+  ➤ Weighted Ens.  : 0.830
+  ➤ Stacking Ens.  : 0.830
 
 ---
 
